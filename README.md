@@ -5,7 +5,7 @@ Each product release has its own tag: `<product>-v<version>`.
 
 Served through jsDelivr:
 
-    https://cdn.jsdelivr.net/gh/wrteam-adityasinh/presentation-images@home-service-v1.0.0/home-service/01-hero.jpg
+    https://cdn.jsdelivr.net/gh/wrteam-adityasinh/Presentation-Assets@home-service-v1.0.0/home-service/01-hero.jpg
 
 | Folder | Product | Current tag |
 |---|---|---|
