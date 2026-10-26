@@ -11,6 +11,6 @@ Served through jsDelivr:
 |---|---|---|
 | home-service | Home Service UI kit (Servly) | home-service-v1.0.3 |
 | bicycart | BicyCart bicycle shopping app UI kit | bicycart-v1.0.1 |
-| cropcore | CropCore farming app UI kit | cropcore-v1.0.0 |
+| cropcore | CropCore farming app UI kit | cropcore-v1.0.1 |
 
 No template code lives here.
