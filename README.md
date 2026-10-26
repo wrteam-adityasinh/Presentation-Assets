@@ -9,6 +9,6 @@ Served through jsDelivr:
 
 | Folder | Product | Current tag |
 |---|---|---|
-| home-service | Home Service UI kit (Servly) | home-service-v1.0.1 |
+| home-service | Home Service UI kit (Servly) | home-service-v1.0.2 |
 
 No template code lives here.
