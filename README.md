@@ -14,5 +14,6 @@ Served through jsDelivr:
 | cropcore | CropCore farming app UI kit | cropcore-v1.0.1 |
 | plugnpark | PlugNPark EV charging & parking UI kit | plugnpark-v1.0.0 |
 | aurenix | Aurenix AI assistant app UI kit | aurenix-v1.0.1 |
+| bondly | Bondly dating & social app UI kit | bondly-v1.0.0 |
 
 No template code lives here.
