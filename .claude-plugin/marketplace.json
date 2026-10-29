@@ -1,0 +1,11 @@
+{
+  "name": "wrteam",
+  "owner": { "name": "WRTeam Design" },
+  "plugins": [
+    {
+      "name": "marketplace-presentation",
+      "source": "./plugins/marketplace-presentation",
+      "description": "Build a WRTeam marketplace presentation from a Figma UI kit link: analyse, plan, build in Figma, export, publish to jsDelivr and return the item-page HTML."
+    }
+  ]
+}
