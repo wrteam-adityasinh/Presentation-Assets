@@ -69,6 +69,16 @@
       "owner": "WRTeam Design",
       "created": "2026-10-28",
       "updated": "2026-10-28"
+    },
+    {
+      "product": "mieo",
+      "created": "2026-10-29",
+      "title": "Mieo kids language-learning app UI kit (Flutter + Figma)",
+      "style": "game-sky",
+      "tag": "mieo-v1.0.0",
+      "live": "https://www.figma.com/design/mWILt2PBmTonssE3Z7uSgU/Mieo---Language-Learning?node-id=19-150",
+      "owner": "WRTeam Design",
+      "updated": "2026-10-29"
     }
   ]
 }
