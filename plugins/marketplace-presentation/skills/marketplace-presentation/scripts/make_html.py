@@ -5,7 +5,8 @@ Usage:
       --live "<live preview link>" --alts alts.json --out item-page.html
 
 alts.json: {"01-cover": "Bondly dating and social app UI kit ...", "02-numbers": "...", ...}
-Images are listed in file-name order. Only 01-cover and 14-cta are wrapped in the live link.
+Images are listed in file-name order. Only 01-cover and the image whose name ends in "-cta"
+(14-cta in 15-image decks, 15-cta in 16-image decks) are wrapped in the live link.
 The "&t=..." share parameter is removed from the link.
 """
 import argparse
@@ -14,7 +15,8 @@ import json
 import os
 import re
 
-LINKED = {"01-cover", "14-cta"}
+def is_linked(name):
+    return name == "01-cover" or name.endswith("-cta")
 CDN = "https://cdn.jsdelivr.net/gh/wrteam-adityasinh/Presentation-Assets@{tag}/{product}/{name}.jpg"
 
 
@@ -39,7 +41,7 @@ def main():
     lines = []
     for n in names:
         img = f'<img src="{CDN.format(tag=a.tag, product=a.product, name=n)}" alt="{html.escape(alts[n], quote=True)}" />'
-        if n in LINKED:
+        if is_linked(n):
             img = f'<a href="{html.escape(live, quote=True)}" target="_blank" rel="noopener">{img}</a>'
         lines.append(img)
     open(a.out, "w", encoding="utf-8").write("\n".join(lines) + "\n")

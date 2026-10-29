@@ -41,5 +41,5 @@
 
 ## Links
 
-- The live-preview link goes on **two images only**: `01-cover` and `14-cta`. Also set it as a hyperlink on the "Open in Figma" text in frame 14.
+- The live-preview link goes on **two images only**: `01-cover` and the `-cta` image (`14-cta` or `15-cta`). Also set it as a hyperlink on the button text in the Get Started frame.
 - Strip `&t=…` from Figma share links.

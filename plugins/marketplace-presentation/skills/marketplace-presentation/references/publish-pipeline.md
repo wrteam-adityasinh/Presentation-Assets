@@ -4,6 +4,8 @@
 
 **Layout:** one folder per product in kebab case (`bondly/`), files `NN-name.jpg`, plus `registry/products.json`.
 
+**Only presentation images are published.** A product folder holds nothing but the 15 or 16 final `NN-name.jpg` images. Never add product code, captured screens, single-screen screenshots, PNGs, `.env` or config files, or anything else from the product's code folder. Keep downloads and captures in the session scratchpad. `publish.sh` checks this and refuses to run otherwise. If it refuses, delete the extra files from the product folder; don't work around the check.
+
 **Tags:** `<product>-v<semver>`. First publish `v1.0.0`, every update a new patch tag. Old tags keep working forever.
 
 **URL:** `https://cdn.jsdelivr.net/gh/wrteam-adityasinh/Presentation-Assets@<tag>/<folder>/<file>.jpg`

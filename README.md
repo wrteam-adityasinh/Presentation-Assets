@@ -25,9 +25,13 @@ You also need:
 
 ## Use
 
-```
-/marketplace-presentation https://www.figma.com/design/<fileKey>/<Product>
-```
+| You have | Do this |
+|---|---|
+| Only a Figma file | `/marketplace-presentation https://www.figma.com/design/<fileKey>/<Product>` |
+| Code and a Figma file | Open Claude Code in the product's code folder, then run the same command with the Figma link. Features also come from the code, and a tech-stack slide is added |
+| Only code | Create an **empty** Figma design file in the team's Figma project. Open Claude Code in the code folder and run the command with that empty file's link. Claude runs the app, captures every screen into the file and builds the presentation there |
+
+Only the final presentation images are ever pushed to GitHub. Code, captured screens and screenshots never leave your machine and the Figma file.
 
 Claude stops twice:
 
