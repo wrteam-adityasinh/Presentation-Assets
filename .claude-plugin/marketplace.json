@@ -1,6 +1,9 @@
 {
   "name": "wrteam",
-  "owner": { "name": "WRTeam Design" },
+  "description": "WRTeam design team plugins: marketplace presentation builder",
+  "owner": {
+    "name": "WRTeam Design"
+  },
   "plugins": [
     {
       "name": "marketplace-presentation",
