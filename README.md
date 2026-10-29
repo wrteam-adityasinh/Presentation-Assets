@@ -9,9 +9,13 @@ You give Claude a Figma link. Claude analyses the kit, proposes a 15-image deck 
 In Claude Code:
 
 ```
-/plugin marketplace add <owner>/claude-presentation-kit
+/plugin marketplace add wrteam-adityasinh/Presentation-Assets#plugin
 /plugin install marketplace-presentation@wrteam
 ```
+
+The plugin lives on the `plugin` branch of the same repo that holds the presentation images. Images go to `main`.
+
+Without a GitHub SSH key, set `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` in your environment before adding the marketplace, and run `gh auth login` then `gh auth setup-git` once.
 
 You also need:
 
@@ -45,6 +49,17 @@ Later, if you change slides in Figma, say "I updated some sections". Claude repl
 - `references/style-library/`: 10 style recipes (7 from shipped decks, 3 new)
 - `scripts/`: Figma builder kit, analysis scripts, export, publish, registry and HTML generator
 
+## Who can change what
+
+| Branch | What lives there | Who can change it |
+|---|---|---|
+| `main` | Presentation images, `registry/products.json`, README | Every collaborator, pushing directly (no review) |
+| `plugin` | This plugin | Only the repo owner pushes directly. Everyone else opens a pull request and the owner approves it |
+| Tags `*-v*` | Published image versions used by live item pages | Anyone can create a new tag. Only the owner can move or delete one |
+
 ## Changing the standard
 
-Edit the files, bump `version` in `plugins/marketplace-presentation/.claude-plugin/plugin.json`, commit and push. Teammates run `/plugin update`.
+1. Create a branch from `plugin`, for example `git switch -c fix-features-guide origin/plugin`.
+2. Edit the files and bump `version` in `plugins/marketplace-presentation/.claude-plugin/plugin.json`.
+3. Push the branch and open a pull request into `plugin`.
+4. The owner reviews and merges it. Teammates then run `/plugin marketplace update wrteam` and `/plugin update marketplace-presentation`.

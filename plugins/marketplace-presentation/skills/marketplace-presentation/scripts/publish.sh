@@ -13,6 +13,8 @@ TAG="$PRODUCT-$VERSION"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 
 cd "$REPO"
+# Assets always go to main. The plugin branch is protected and needs a pull request.
+git checkout -q main
 git pull -q --rebase
 if git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; then echo "Tag $TAG already exists: use the next version"; exit 1; fi
 
