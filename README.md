@@ -16,6 +16,6 @@ Served through jsDelivr:
 | aurenix | Aurenix AI assistant app UI kit | aurenix-v1.0.1 |
 | bondly | Bondly dating & social app UI kit | bondly-v1.0.0 |
 | musinto | Musinto music streaming app UI kit | musinto-v1.0.3 |
-| mieo | Mieo kids language-learning app UI kit (Flutter + Figma) | mieo-v1.0.0 |
+| mieo | Mieo kids language-learning app UI kit (Flutter + Figma) | mieo-v1.0.1 |
 
 No template code lives here.
