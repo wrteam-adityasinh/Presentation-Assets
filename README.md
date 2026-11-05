@@ -17,6 +17,6 @@ Served through jsDelivr:
 | bondly | Bondly dating & social app UI kit | bondly-v1.0.0 |
 | musinto | Musinto music streaming app UI kit | musinto-v1.0.3 |
 | mieo | Mieo kids language-learning app UI kit (Flutter + Figma) | mieo-v1.0.1 |
-| efreshhh | eFreshhh grocery & food delivery HTML template | efreshhh-v1.0.0 |
+| efreshhh | eFreshhh grocery & food delivery HTML template | efreshhh-v1.0.1 |
 
 No template code lives here.
