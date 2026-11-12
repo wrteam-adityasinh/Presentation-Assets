@@ -95,10 +95,10 @@
       "created": "2026-11-05",
       "title": "AquaNFT NFT marketplace React template",
       "style": "boarding-pass",
-      "tag": "aquanft-v1.0.0",
-      "live": "",
+      "tag": "aquanft-v1.0.1",
+      "live": "https://nftwebtemplate.netlify.app/",
       "owner": "Dimple",
-      "updated": "2026-11-05"
+      "updated": "2026-11-12"
     }
   ]
 }
