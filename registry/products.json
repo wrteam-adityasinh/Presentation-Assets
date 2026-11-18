@@ -99,6 +99,16 @@
       "live": "https://nftwebtemplate.netlify.app/",
       "owner": "Dimple",
       "updated": "2026-11-12"
+    },
+    {
+      "product": "bookyvent",
+      "created": "2026-11-18",
+      "title": "Bookyvent AI event booking Flutter app template",
+      "style": "custom",
+      "tag": "bookyvent-v1.0.0",
+      "live": "https://bookyvent.vercel.app",
+      "owner": "WRTeam Design",
+      "updated": "2026-11-18"
     }
   ]
 }
