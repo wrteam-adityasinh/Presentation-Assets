@@ -19,6 +19,6 @@ Served through jsDelivr:
 | mieo | Mieo kids language-learning app UI kit (Flutter + Figma) | mieo-v1.0.1 |
 | efreshhh | eFreshhh grocery & food delivery HTML template | efreshhh-v1.0.3 |
 | aquanft | AquaNFT NFT marketplace React template | aquanft-v1.0.1 |
-| bookyvent | Bookyvent AI event booking Flutter app template | bookyvent-v1.0.0 |
+| bookyvent | Bookyvent AI event booking Flutter app template | bookyvent-v1.0.1 |
 
 No template code lives here.
